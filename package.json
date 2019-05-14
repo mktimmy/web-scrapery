@@ -1,0 +1,28 @@
+{
+  "name": "web-scrapery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mktimmy/web-scrapery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mktimmy/web-scrapery/issues"
+  },
+  "homepage": "https://github.com/mktimmy/web-scrapery#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "logger": "0.0.1",
+    "mongoose": "^5.5.8",
+    "request": "^2.88.0"
+  }
+}
